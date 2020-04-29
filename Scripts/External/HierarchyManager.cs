@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
-using Byjus.Gamepod.Template.Controllers;
-using Byjus.Gamepod.Template.Views;
-using Byjus.Gamepod.Template.Verticals;
+using Byjus.Gamepod.PathFinder.Controllers;
+using Byjus.Gamepod.PathFinder.Views;
+using Byjus.Gamepod.PathFinder.Verticals;
 
-namespace Byjus.Gamepod.Template.Externals {
+namespace Byjus.Gamepod.PathFinder.Externals {
     /// <summary>
     /// Since there are controllers (non-monobehaviors) involved, we can't just directly assign references
     /// So, this class is used which manages all reference assigning

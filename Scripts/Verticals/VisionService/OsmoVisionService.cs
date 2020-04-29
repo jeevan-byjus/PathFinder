@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System;
 using System.Collections.Generic;
-using Byjus.Gamepod.Template.Util;
+using Byjus.Gamepod.PathFinder.Util;
 using UnityEngine.UI;
 
 #if !CC_STANDALONE

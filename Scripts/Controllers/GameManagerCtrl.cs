@@ -1,28 +1,32 @@
 ﻿using UnityEngine;
-using Byjus.Gamepod.Template.Views;
-using Byjus.Gamepod.Template.Verticals;
+using Byjus.Gamepod.PathFinder.Views;
+using Byjus.Gamepod.PathFinder.Verticals;
 using System.Collections.Generic;
 
-namespace Byjus.Gamepod.Template.Controllers {
+namespace Byjus.Gamepod.PathFinder.Controllers {
     public class GameManagerCtrl : IGameManagerCtrl, IExtInputListener {
         public IGameManagerView view;
 
         public void Init() {
         }
 
-        public void OnInputStart() {
-            throw new System.NotImplementedException();
-        }
-
         public void OnInputEnd() {
             throw new System.NotImplementedException();
         }
 
-        public void OnBlueCubeAdded() {
+        public void OnInputStart() {
             throw new System.NotImplementedException();
         }
 
-        public void OnRedCubeAdded() {
+        public void OnPlaceValueUpdated(int newValue) {
+            throw new System.NotImplementedException();
+        }
+
+        public void onTileRemoved() {
+            throw new System.NotImplementedException();
+        }
+
+        public void OntTilePlaced() {
             throw new System.NotImplementedException();
         }
     }

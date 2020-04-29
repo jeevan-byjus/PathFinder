@@ -4,14 +4,14 @@ using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.TestTools;
-using Byjus.Gamepod.Template.Verticals;
-using Byjus.Gamepod.Template.Controllers;
-using Byjus.Gamepod.Template.Views;
-using Byjus.Gamepod.Template.Util;
+using Byjus.Gamepod.PathFinder.Verticals;
+using Byjus.Gamepod.PathFinder.Controllers;
+using Byjus.Gamepod.PathFinder.Views;
+using Byjus.Gamepod.PathFinder.Util;
 using System.IO;
 
 
-namespace Byjus.Gamepod.Template.Tests {
+namespace Byjus.Gamepod.PathFinder.Tests {
     public class UtilTest : BaseTestSuite {
 
         [SetUp]

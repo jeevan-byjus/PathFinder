@@ -1,12 +1,6 @@
 {
-    "name": "Template-Scripts",
-    "references": [
-        "sdk-plugins",
-        "container-api",
-        "gamehelper-scripts",
-        "gamehelper-tweening",
-        "gamehelper-editor"
-    ],
+    "name": "PathFinder-Scripts",
+    "references": [],
     "optionalUnityReferences": [],
     "includePlatforms": [],
     "excludePlatforms": [],

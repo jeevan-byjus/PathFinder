@@ -1,7 +1,7 @@
 {
-    "name": "Template-Tests",
+    "name": "PathFinder-Tests",
     "references": [
-        "Template-Scripts"
+        "PathFinder-Scripts"
     ],
     "optionalUnityReferences": [
         "TestAssemblies"

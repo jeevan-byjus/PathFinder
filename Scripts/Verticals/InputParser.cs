@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
-using Byjus.Gamepod.Template.Util;
+using Byjus.Gamepod.PathFinder.Util;
 
-namespace Byjus.Gamepod.Template.Verticals {
+namespace Byjus.Gamepod.PathFinder.Verticals {
     public class InputParser : MonoBehaviour {
         public IExtInputListener inputListener;
 
@@ -38,8 +38,11 @@ namespace Byjus.Gamepod.Template.Verticals {
 
     public interface IExtInputListener {
         void OnInputStart();
-        void OnRedCubeAdded();
-        void OnBlueCubeAdded();
+
+        void OnPlaceValueUpdated(int newValue);
+        void OntTilePlaced();
+        void onTileRemoved();
+
         void OnInputEnd();
     }
 

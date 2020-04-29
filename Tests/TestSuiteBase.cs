@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Byjus.Gamepod.Template.Tests {
+namespace Byjus.Gamepod.PathFinder.Tests {
     public class BaseTestSuite {
         List<GameObject> setupGOs;
 
